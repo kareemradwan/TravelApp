@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="turn_on_location_services">dsadasd  </string>
+</resources>
