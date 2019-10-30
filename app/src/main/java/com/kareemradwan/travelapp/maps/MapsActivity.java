@@ -119,15 +119,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             int requestCode,
             @NonNull String[] permissions,
             @NonNull int[] grantResults) {
-        if (requestCode != LocationManager.LOCATION_PERMISSION_REQUEST_CODE) {
-            return;
-        }
 
-        // No need to check if the location permission has been granted because of the onResume() block
-        if (!(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-            denialLock = true;
-            locationManager.showLocationPermissionDialog();
-        }
     }
 
 
